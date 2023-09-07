@@ -1,0 +1,30 @@
+name: crypto_viewer
+description: Simple crypto viewer
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  equatable: ^2.0.3
+  http: ^1.1.0
+  redux: ^5.0.0
+  flutter_redux: ^0.10.0
+  shared_preferences: ^2.0.15
+  redux_epics: ^0.15.1
+  rxdart: ^0.27.5
+  declarative_refresh_indicator: ^0.1.0
+  chart_sparkline: ^1.0.11
+  animations: ^2.0.4
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
